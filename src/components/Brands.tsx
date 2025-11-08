@@ -43,24 +43,73 @@ export default function Brands() {
 
           {/* Gallery Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
-            {[
-              "/assets/Rectangle 22.png",
-              "/assets/Rectangle 23.png",
-              "/assets/Rectangle 24.png",
-              "/assets/Rectangle 26.png",
-              "/assets/Rectangle 27.png",
-              "/assets/Rectangle 28.png",
-              "/assets/Rectangle 29.png",
-            ].map((src, index) => (
-              <div key={index} className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
-                <Image
-                  src={src}
-                  alt={`Gallery ${index + 1}`}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            ))}
+            {/* Rectangle 22 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 22.png"
+                alt="Gallery 1"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 23 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 23.png"
+                alt="Gallery 2"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 24 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 24.png"
+                alt="Gallery 3"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 25 - Text Card with sarah.eth */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity bg-gradient-to-br from-[#0066ff] via-[#004fff] to-[#0033ff] flex items-center justify-center">
+              <p className="text-white text-2xl font-semibold opacity-20">sarah.eth</p>
+            </div>
+            {/* Rectangle 26 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 26.png"
+                alt="Gallery 5"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 27 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 27.png"
+                alt="Gallery 6"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 28 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 28.png"
+                alt="Gallery 7"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Rectangle 29 */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden opacity-20 hover:opacity-100 transition-opacity">
+              <Image
+                src="/assets/Rectangle 29.png"
+                alt="Gallery 8"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
 
           {/* Footer Logos */}
