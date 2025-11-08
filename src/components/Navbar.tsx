@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="absolute top-[42px] left-1/2 -translate-x-1/2 z-50">
-      <div className="bg-[#020624] flex items-center gap-7 px-4 py-3 rounded-[56px] shadow-lg">
+    <nav className="absolute top-[42px] left-[567px] z-50" data-node-id="40:66">
+      <div className="bg-[#020624] flex items-center gap-[28px] pl-[18px] pr-[16px] py-[15px] rounded-[56px] shadow-lg">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
