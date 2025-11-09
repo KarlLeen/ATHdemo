@@ -62,6 +62,28 @@ export default function Hero() {
         </div>
       </div>
 
+      {/* Group 1171277163 - Mic Icon */}
+      <div className="absolute left-[555px] top-[269px] w-[56px] h-[56px] z-10" data-node-id="40:80">
+        <Image
+          src="/assets/Group 1171277163.png"
+          alt="Microphone icon"
+          width={56}
+          height={56}
+          className="w-full h-full object-contain"
+        />
+      </div>
+
+      {/* Desktop Monitor Icon - 🖥️ */}
+      <div className="absolute left-[1026px] top-[775px] w-[219px] h-[105px] z-10" data-node-id="40:163">
+        <Image
+          src="/assets/🖥️.png"
+          alt="Desktop monitor icon"
+          width={219}
+          height={105}
+          className="w-full h-full object-contain"
+        />
+      </div>
+
       {/* Podcast Card - Group 1171277157 */}
       <div className="absolute left-[171px] top-[703px] w-[407px] h-[113px] z-10" data-node-id="40:42">
         {/* Glass card background */}

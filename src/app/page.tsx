@@ -41,6 +41,37 @@ export default function Home() {
         />
       </div>
 
+      {/* Decorative Icons - 🎹🎧🎙️🎥📱📸 */}
+      {/* 🎹 Piano - Left side, above Musicians & Podcasters card */}
+      <div className="absolute left-[268px] top-[1345px] z-10" data-node-id="40:290">
+        <span className="text-[59px] leading-normal">🎹</span>
+      </div>
+      
+      {/* 🎧 Headphones - Left side, below piano */}
+      <div className="absolute left-[134px] top-[1467px] w-[108px] h-[108px] z-10" data-node-id="40:101">
+        <span className="text-[108px] leading-normal">🎧</span>
+      </div>
+      
+      {/* 🎙️ Microphone - Left side, below headphones */}
+      <div className="absolute left-[271px] top-[1625px] z-10" data-node-id="40:291">
+        <span className="text-[59px] leading-normal">🎙️</span>
+      </div>
+      
+      {/* 🎥 Camera - Right side, above Visual Artists card */}
+      <div className="absolute left-[1421px] top-[1282px] w-[72px] h-[72px] z-10" data-node-id="40:160">
+        <span className="text-[72px] leading-normal">🎥</span>
+      </div>
+      
+      {/* 📱 Phone - Right side, below camera */}
+      <div className="absolute left-[1486px] top-[1466px] z-10" data-node-id="40:292">
+        <span className="text-[59px] leading-normal">📱</span>
+      </div>
+      
+      {/* 📸 Camera with flash - Right side, below phone */}
+      <div className="absolute left-[1454px] top-[1625px] z-10" data-node-id="40:289">
+        <span className="text-[91px] leading-normal">📸</span>
+      </div>
+
       {/* Main content - above background */}
       <div className="relative z-10">
         <Navbar />
