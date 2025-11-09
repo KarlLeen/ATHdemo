@@ -4,7 +4,7 @@ export default function Brands() {
   return (
     <section className="absolute left-[372px] top-[1814px] w-[984px] h-[255px] z-10 overflow-visible" data-node-id="64:99">
       {/* Rectangle 14 - Background */}
-      <div className="absolute bg-transparent rounded-[16px] shadow-[0px_2px_2px_0px_rgba(0,0,0,0.15)] w-[984px] h-[255px] left-0 top-0 z-0 overflow-visible" data-node-id="40:184" />
+      <div className="absolute bg-transparent rounded-[16px] w-[984px] h-[255px] left-0 top-0 z-0 overflow-visible" data-node-id="40:184" />
       
       {/* Title - For Brands & Sponsors */}
       <div className="absolute left-1/2 top-[24px] -translate-x-1/2 z-10" data-node-id="40:189">

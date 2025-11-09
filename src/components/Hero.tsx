@@ -5,6 +5,9 @@ export default function Hero() {
     <>
       {/* Hero Content - Group 1171277151 */}
       <div className="absolute left-1/2 top-[433px] -translate-x-1/2 z-10" data-node-id="40:23">
+        {/* Blurred background layer - enhanced for glassmorphism effect */}
+        <div className="absolute left-1/2 top-0 -translate-x-1/2 w-[700px] h-[350px] backdrop-blur-[80px] rounded-[24px] -z-10" />
+        
         {/* Title */}
         <h1 className="absolute left-1/2 top-0 -translate-x-1/2 text-[36px] font-semibold text-[#020d5a] text-center leading-tight tracking-[-1.08px] whitespace-pre" data-node-id="40:24">
           Where Audio Meets Art.
