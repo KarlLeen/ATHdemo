@@ -8,7 +8,7 @@ export default function Background() {
         className="absolute h-[1345px] left-[-454.65px] top-[-66px] w-[2331.65px] z-[-1]"
         data-node-id="40:15"
       >
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full opacity-60">
           <Image
             src="/assets/Group 1171277150.png"
             alt="Background gradient"
@@ -27,7 +27,7 @@ export default function Background() {
         className="absolute left-[-2px] top-[-4px] w-[1728px] h-[1027px] z-0"
         data-node-id="40:12"
       >
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full opacity-60">
           <Image
             src="/assets/Group 1171277162.png"
             alt="Background"
