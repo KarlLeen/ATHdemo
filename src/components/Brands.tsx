@@ -115,7 +115,7 @@ export default function Brands() {
       {/* image 11 - Social media post card (bottom-left, overlapping) */}
       {/* image 11: x=374, y=1964.13, rotated 350.727deg */}
       {/* Relative to section: left-[374-372]=left-[2px] top-[1964.13-1814]=top-[150px] */}
-      <div className="absolute left-[2px] top-[150px] w-[211px] h-[118px] z-10 rotate-[350.727deg] overflow-visible" data-node-id="40:193">
+      <div className="absolute left-[2px] top-[125px] w-[211px] h-[118px] z-10 rotate-[350.727deg] overflow-visible" data-node-id="40:193">
         <div className="relative w-full h-full rounded-[16px] overflow-hidden">
           <Image
             src="/assets/image 11.png"
