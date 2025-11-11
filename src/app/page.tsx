@@ -8,7 +8,7 @@ import Background from "@/components/Background";
 
 export default function Home() {
   return (
-    <div className="relative w-[1728px] h-[2692px] bg-white overflow-visible mx-auto" style={{ minHeight: '2692px' }}>
+    <div className="relative w-[1728px] h-[2692px] bg-white overflow-visible" style={{ minHeight: '2692px' }}>
       {/* Background Group 1171277162 */}
       <Background />
 

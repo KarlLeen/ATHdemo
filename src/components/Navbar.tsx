@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -6,13 +7,15 @@ export default function Navbar() {
       <div className="bg-[#020624] flex items-center gap-[28px] pl-[18px] pr-[16px] py-[15px] rounded-[56px] shadow-lg">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <Image
-            src="/assets/Athenax logo.svg"
-            alt="Athena Logo"
-            width={120}
-            height={24}
-            className="object-contain"
-          />
+          <Link href="/">
+            <Image
+              src="/assets/Athenax logo.svg"
+              alt="Athena Logo"
+              width={120}
+              height={24}
+              className="object-contain"
+            />
+          </Link>
         </div>
 
         {/* Navigation Links */}
@@ -24,9 +27,11 @@ export default function Navbar() {
         </div>
 
         {/* Sign In Button */}
-        <button className="bg-white text-[#010b43] px-3 py-1 rounded-[40px] text-sm font-semibold hover:opacity-90 transition-opacity">
-          Sign In
-        </button>
+        <Link href="/login">
+          <button className="bg-white text-[#010b43] px-3 py-1 rounded-[40px] text-sm font-semibold hover:opacity-90 transition-opacity">
+            Sign In
+          </button>
+        </Link>
       </div>
     </nav>
   );

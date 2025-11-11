@@ -119,7 +119,7 @@ export default function Brands() {
         <div className="relative w-full h-full rounded-[16px] overflow-hidden">
           <Image
             src="/assets/image 11.png"
-            alt=""
+            alt=""  
             fill
             className="object-contain rounded-[16px]"
           />
